@@ -1,0 +1,10 @@
+for n = 1:260
+    if strcomp(time(n,1)== time(n+1,1)
+        time(n+1,2)=time(n+1,2)+time(n,2)
+    else
+        time(n,3)=time(n,2)
+    end
+end
+
+        
+        
